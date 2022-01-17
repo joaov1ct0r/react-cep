@@ -1,13 +1,26 @@
+import { useState } from 'react';
+
 import { FiSearch } from 'react-icons/fi';
 
 import './App.css';
 
 function App() {
+    let [Cep, setCep] = useState('');
+
+    function handleCep(event) {
+        setCep(event.target.value);
+    }
     return (
         <div className="App">
             <h1>Buscador de CEP</h1>
             <div className="cep-container">
-                <input type="text" placeholder="Digite seu CEP..." name="cep" />
+                <input
+                    onChange={handleCep}
+                    type="text"
+                    placeholder="Digite seu CEP..."
+                    name="cep"
+                    value={Cep}
+                />
                 <button type="submit">
                     <FiSearch size={25} color="#FFF" />
                 </button>
