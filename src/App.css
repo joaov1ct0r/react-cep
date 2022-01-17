@@ -22,3 +22,12 @@
     border-radius: 8px;
     box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
 }
+
+.cep-container input {
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    margin-right: 8px;
+}
