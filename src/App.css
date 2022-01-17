@@ -1,4 +1,19 @@
 .App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#636363, #463c21);
     text-align: center;
     font-family: sans-serif;
+}
+
+.App h1 {
+    font-size: 85px;
+    color: white;
+}
+
+.cep-container {
+    background-color: rgba(255, 255, 255, 0.2);
 }

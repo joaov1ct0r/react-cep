@@ -5,8 +5,8 @@ import './App.css';
 function App() {
     return (
         <div className="App">
+            <h1>Buscador de CEP</h1>
             <div className="cep-container">
-                <h1>Buscador CEP</h1>
                 <input type="text" placeholder="Digite seu CEP..." name="cep" />
                 <button type="submit">
                     <FiSearch size={25} color="#FFF" />
