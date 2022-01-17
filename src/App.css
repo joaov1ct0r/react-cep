@@ -46,3 +46,8 @@
     width: 500px;
     border-radius: 8px;
 }
+
+.info-container h3 {
+    margin: 16px 0;
+    font-size: 40px;
+}
