@@ -8,6 +8,13 @@ function App() {
                 <input type="text" placeholder="Digite seu CEP..." name="cep" />
                 <button type="submit">Procurar</button>
             </div>
+            <div className="info-container">
+                <h3>CEP: 04815-030</h3>
+                <p>Rua Justino Nigro 449</p>
+                <p>Interlagos</p>
+                <p>São Paulo - SP</p>
+                <p>Brasil</p>
+            </div>
         </div>
     );
 }
