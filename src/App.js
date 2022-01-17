@@ -10,6 +10,7 @@ function App() {
     function handleCep(event) {
         setCep(event.target.value);
     }
+
     return (
         <div className="App">
             <h1>Buscador de CEP</h1>
@@ -21,7 +22,7 @@ function App() {
                     name="cep"
                     value={Cep}
                 />
-                <button type="submit">
+                <button type="submit" onClick={handleClick}>
                     <FiSearch size={25} color="#FFF" />
                 </button>
             </div>
