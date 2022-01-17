@@ -40,3 +40,9 @@
     align-items: center;
     cursor: pointer;
 }
+
+.info-container {
+    background-color: white;
+    width: 500px;
+    border-radius: 8px;
+}
