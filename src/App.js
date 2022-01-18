@@ -1,52 +1,21 @@
 import { useState } from 'react';
 
-import { FiSearch } from 'react-icons/fi';
-
-import api from './services/api';
+import CepContainer from './components/CepContainer';
 
 import './App.css';
 
 function App() {
-    let [Cep, setCep] = useState('');
-
     let [Data, setData] = useState({});
 
-    function handleCep(event) {
-        setCep(event.target.value);
-    }
-
-    async function handleClick() {
-        if (Cep === '') {
-            alert('Preencha algum CEP');
-            return;
-        }
-        try {
-            const req = await api.get(`${Cep}/json`);
-
-            setData(req.data);
-
-            setCep('');
-        } catch {
-            alert('Erro');
-            setCep('');
-        }
+    function handleData(data) {
+        setData(data);
     }
 
     return (
         <div className="App">
             <h1>Buscador de CEP</h1>
-            <div className="cep-container">
-                <input
-                    onChange={handleCep}
-                    type="text"
-                    placeholder="Digite seu CEP..."
-                    name="cep"
-                    value={Cep}
-                />
-                <button type="submit" onClick={handleClick}>
-                    <FiSearch size={25} color="#FFF" />
-                </button>
-            </div>
+            <CepContainer onData={handleData}></CepContainer>
+
             {Object.keys(Data).length > 0 && (
                 <div className="info-container">
                     <h3>CEP: {Data.cep}</h3>
