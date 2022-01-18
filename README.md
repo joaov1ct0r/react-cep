@@ -41,3 +41,5 @@
 <p>A PAGINA DA BUSCA DE CEP SERA ABERTA E ESTARA PRONTA PARA FAZER A PESQUISA DO CEP</p>
 
 <h2>Picture</h2>
+
+![cep](https://user-images.githubusercontent.com/79015823/150005559-03d346d6-b0db-484d-8993-d7a54f87ea13.jpg)
