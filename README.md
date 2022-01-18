@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# React CEP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>EM DESENVOLVIMENTO</h1>
 
-## Available Scripts
+<h2>Requisitos</h2>
 
-In the project directory, you can run:
+<ul>
+  <li>NodeJS</li>
+  <p><code>sudo apt install nodejs</code></p>
+  <br>
+  <li>NPM</li>
+  <p><code>sudo apt install npm</code></p>
+  <br>
+  <li>React</li>
+  <p><code>npx create-react-app react-todo</code></p>
+  <br>
+</ul>
 
-### `npm start`
+<h2>Sobre</h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p>App para pesquisa de CEP utilizando a api do VIACEP.</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p>Ao iniciar o servidor a pagina sera iniciada no localhost com um Titulo, um input, um botão, e uma div de info que sera copulada apos a pesquisa do cep com os dados recebidos da API.</p>
 
-### `npm test`
+<p>Ao inserir um CEP no input e clicar no botão de pesquisa uma requisição é feita para a API do VIACEP, um objeto é retornado com os dados.</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p>Esses dados serão inseridos na div info com os detalhes do CEP pesquisado.</p>
 
-### `npm run build`
+<h2>MODO DE USO</h2>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h3>GIT</h3>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p>FAÇA O DOWNLOADS DO REPOSITORIO OU USE:<br><code>git clone git@github.com:joaov1ct0r/react-cep.git</code></p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h3>INICIE O SERVER</h3>
 
-### `npm run eject`
+<p>APOS TER OS ARQUIVOS EM SUA MAQUINA DIRECIONE-SE PARA O DIRETORIO DO REPOSITORIO E INICIE O SERVIDOR WEB NO SEU TERMINAL COM O COMANDO:<br><code>npm start</code></p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p>APOS ISSO UMA NOVA ABA SERA ABERTA</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p>A PAGINA DA BUSCA DE CEP SERA ABERTA E ESTARA PRONTA PARA FAZER A PESQUISA DO CEP</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h2>Picture</h2>
