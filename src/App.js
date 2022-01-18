@@ -2,6 +2,8 @@ import { useState } from 'react';
 
 import CepContainer from './components/CepContainer';
 
+import InfoContainer from './components/InfoContainer';
+
 import './App.css';
 
 function App() {
@@ -15,17 +17,7 @@ function App() {
         <div className="App">
             <h1>Buscador de CEP</h1>
             <CepContainer onData={handleData}></CepContainer>
-
-            {Object.keys(Data).length > 0 && (
-                <div className="info-container">
-                    <h3>CEP: {Data.cep}</h3>
-                    <p>Logradouro: {Data.logradouro}</p>
-                    <p>Bairro: {Data.bairro}</p>
-                    <p>
-                        Cidade: {Data.localidade} - {Data.uf}
-                    </p>
-                </div>
-            )}
+            <InfoContainer Data={Data}></InfoContainer>
         </div>
     );
 }
