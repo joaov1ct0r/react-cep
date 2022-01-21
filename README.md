@@ -12,7 +12,7 @@
   <p><code>sudo apt install npm</code></p>
   <br>
   <li>React</li>
-  <p><code>npx create-react-app react-todo</code></p>
+  <p><code>npx create-react-app react-cep</code></p>
   <br>
 </ul>
 
